@@ -1,4 +1,6 @@
 const container = document.querySelector('.container');
+const btn = document.createElement('button');
+
 
 const grid = () => {
     for (let i = 0; i < 256; i++) {
@@ -18,5 +20,9 @@ const randomColor = () => {
     }
     return 'rgb(' + color.join(', ') + ')';
 };
+
+btn.addEventListener('click', () => {
+    
+})
 
 grid();
